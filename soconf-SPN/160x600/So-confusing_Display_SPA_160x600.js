@@ -1309,94 +1309,94 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [183];
+	this.actionFrames = [207];
 	// timeline functions:
-	this.frame_183 = function() {
+	this.frame_207 = function() {
 		this.stop();
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(183).call(this.frame_183).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(207).call(this.frame_207).wait(1));
 
 	// border
 	this.instance = new lib._160x600bordersvg("synched",0);
 	this.instance.setTransform(80,300,1,1,0,0,0,80,300);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(184));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(208));
 
 	// HEAD1a
 	this.instance_1 = new lib.HEAD1a();
 	this.instance_1.setTransform(80.05,114.75,0.6149,0.6149,0,0,0,110,58.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:true},23).wait(161));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:true},35).wait(173));
 
 	// HEAD1b
 	this.instance_2 = new lib.HEAD1b();
 	this.instance_2.setTransform(80.05,114.75,0.6149,0.6149,0,0,0,110,58.1);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(23).to({_off:false},0).to({_off:true},62).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(35).to({_off:false},0).to({_off:true},74).wait(99));
 
 	// SUBHEAD
 	this.instance_3 = new lib.SUBHEAD();
 	this.instance_3.setTransform(80.05,280.15,0.58,0.58,0,0,0,0.1,111.4);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(43).to({_off:false},0).to({_off:true},42).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(67).to({_off:false},0).to({_off:true},42).wait(99));
 
 	// HEAD2
 	this.instance_4 = new lib.HEAD2();
 	this.instance_4.setTransform(80.1,184.25,0.7328,0.7328,0,0,0,0.2,53.6);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(85).to({_off:false},0).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(109).to({_off:false},0).wait(99));
 
 	// C_LINE
 	this.instance_5 = new lib.CLINE();
 	this.instance_5.setTransform(80.1,278.1,0.5,0.5,0,0,0,0.2,0.2);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(111).to({_off:false},0).wait(73));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(135).to({_off:false},0).wait(73));
 
 	// arrows
 	this.instance_6 = new lib.Arrows("synched",0);
 	this.instance_6.setTransform(80,386);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(144).to({_off:false},0).to({y:394},6).to({y:386},10,cjs.Ease.quadOut).to({y:394},6).to({y:386},10,cjs.Ease.quadOut).wait(8));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(168).to({_off:false},0).to({y:394},6).to({y:386},10,cjs.Ease.quadOut).to({y:394},6).to({y:386},10,cjs.Ease.quadOut).wait(8));
 
 	// CTA
 	this.instance_7 = new lib.CTA();
 	this.instance_7.setTransform(79.95,428.55,0.9,0.9);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(144).to({_off:false},0).wait(40));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(168).to({_off:false},0).wait(40));
 
 	// LOGOs copy
 	this.instance_8 = new lib.LOGOs();
 	this.instance_8.setTransform(100,509.15,0.8,0.8,0,0,0,0.1,0.1);
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(85).to({_off:false},0).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(109).to({_off:false},0).wait(99));
 
 	// LOGOs CasCare
 	this.instance_9 = new lib.CascadeCareLogoeps("synched",0);
 	this.instance_9.setTransform(80.05,557,0.03,0.03,0,0,0,540.3,542);
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(85).to({_off:false},0).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(109).to({_off:false},0).wait(99));
 
 	// puzz
 	this.instance_10 = new lib.WAHBEbkgdpuzz300x600();
 	this.instance_10.setTransform(-70,278,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({_off:true},85).wait(99));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({_off:true},109).wait(99));
 
 	// BKGD
 	this.instance_11 = new lib.WAHBEbkgd300x600();
 	this.instance_11.setTransform(-70,0,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(184));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(208));
 
 	this._renderFirstFrame();
 
