@@ -766,24 +766,24 @@ if (reversed == null) { reversed = false; }
 
 	// type out 4-5
 	this.shape_26 = new cjs.Shape();
-	this.shape_26.graphics.f("#642484").s().p("ABMBXIAAhcQAAgUgGgHQgFgIgKAAQgOAAgGANQgFAMAAAWIAABQIg7AAIAAhcQAAgTgFgIQgFgIgKAAQgPAAgFAOQgGAOAAAYIAABLIg7AAIAAiqIAtAAIAIAVIACAAQAHgLANgGQANgHATAAQASAAAMAGQAMAGAIAMIACAAQAIgMAMgGQANgGARAAQAdAAAPAPQAQAPAAAhIAABug");
-	this.shape_26.setTransform(17.525,125.125);
+	this.shape_26.graphics.f("#642484").s().p("AhEB6IgKgCIAAguIAIABIALAAQAOABAHgJQAHgIAEgMIABgBIhEioIA/AAIAdBiIACAIIAAALIABAAIACgLIACgIIAdhiIA9AAIhEC1QgIAVgKAOQgKAOgPAIQgPAHgXAAg");
+	this.shape_26.setTransform(64.025,129);
 
 	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.f("#642484").s().p("Ag1BRQgNgHgJgOQgHgOgBgWIAAhuIA8AAIAABcQAAARAEAJQAGAJAKAAQAQAAAGgOQAGgNgBgZIAAhLIA8AAIAACqIgtAAIgIgVIgDAAQgIANgOAGQgMAFgQAAQgRAAgOgGg");
-	this.shape_27.setTransform(43.65,125.425);
+	this.shape_27.graphics.f("#642484").s().p("Ag1BRQgOgHgHgOQgJgOABgWIAAhuIA7AAIAABcQAAARAFAJQAEAJAMAAQAPAAAGgOQAFgNABgZIAAhLIA6AAIAACqIgsAAIgHgVIgEAAQgIANgOAGQgMAFgRAAQgQAAgOgGg");
+	this.shape_27.setTransform(43.25,125.425);
 
 	this.shape_28 = new cjs.Shape();
-	this.shape_28.graphics.f("#642484").s().p("AhEB6IgKgCIAAguIAIABIALAAQAOABAHgJQAHgIAEgMIABgBIhEioIA/AAIAdBiIACAIIAAALIABAAIACgLIACgIIAdhiIA9AAIhEC1QgIAVgKAOQgKAOgPAIQgPAHgXAAg");
-	this.shape_28.setTransform(64.425,129);
+	this.shape_28.graphics.f("#642484").s().p("ABMBXIAAhcQAAgUgGgHQgFgIgKAAQgOAAgGANQgFAMAAAWIAABQIg7AAIAAhcQAAgTgFgIQgFgIgKAAQgPAAgFAOQgGAOAAAYIAABLIg7AAIAAiqIAtAAIAIAVIACAAQAHgLANgGQANgHATAAQASAAAMAGQAMAGAIAMIACAAQAIgMAMgGQANgGARAAQAdAAAPAPQAQAPAAAhIAABug");
+	this.shape_28.setTransform(17.525,125.125);
 
 	this.shape_29 = new cjs.Shape();
-	this.shape_29.graphics.f("#642484").s().p("AgmBQQgUgJgMgUQgMgTAAgfQAAgeALgUQALgUATgJQATgKAYAAQAlAAAWAUQAWATAAAoIAAAZIhpAAQABANAJAJQAKAJARAAQAQAAANgDQANgEAPgGIAAAqQgNAHgOADQgPADgXAAQgZAAgUgJgAAdgUQAAgMgHgIQgGgIgMAAQgJAAgHAHQgHAHgCAOIAyAAIAAAAg");
-	this.shape_29.setTransform(111.375,125.275);
+	this.shape_29.graphics.f("#642484").s().p("AhSB9IAAj1IAwAAIAJAVIACAAQAHgKAKgHQAKgIASAAQAdAAAQAYQAQAWAAArQAAAdgIATQgJAUgOAKQgOAKgSAAQgSAAgJgHQgKgGgGgHIgBAAIABANIAAAQIAAA/gAgRhDQgFAIgBATIAAAEQAAAVAFALQAFAJANABQALAAAGgJQAGgKAAgXQAAgXgGgIQgGgKgLAAQgMAAgFAKg");
+	this.shape_29.setTransform(91.925,128.85);
 
 	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.f("#642484").s().p("AhSB9IAAj1IAwAAIAJAVIACAAQAHgKAKgHQAKgIASAAQAdAAAQAYQAQAWAAArQAAAdgIATQgJAUgOAKQgOAKgSAAQgSAAgJgHQgKgGgGgHIgBAAIABANIAAAQIAAA/gAgRhDQgFAIgBATIAAAEQAAAVAFALQAFAJANABQALAAAGgJQAGgKAAgXQAAgXgGgIQgGgKgLAAQgMAAgFAKg");
-	this.shape_30.setTransform(91.925,128.85);
+	this.shape_30.graphics.f("#642484").s().p("AgmBQQgUgJgMgUQgMgTAAgfQAAgeALgUQALgUATgJQATgKAYAAQAlAAAWAUQAWATAAAoIAAAZIhpAAQABANAJAJQAKAJARAAQAQAAANgDQANgEAPgGIAAAqQgNAHgOADQgPADgXAAQgZAAgUgJgAAdgUQAAgMgHgIQgGgIgMAAQgJAAgHAHQgHAHgCAOIAyAAIAAAAg");
+	this.shape_30.setTransform(111.375,125.275);
 
 	this.shape_31 = new cjs.Shape();
 	this.shape_31.graphics.f("#642484").s().p("Ag8BXIAAiqIAsAAIAJAbIADAAQAGgNANgIQANgJAPAAIAKAAIAIACIgGA3IgHgBIgNAAQgHAAgJACQgJACgGAHQgFAHAAAPIAABUg");
@@ -803,7 +803,7 @@ if (reversed == null) { reversed = false; }
 
 	this.shape_35 = new cjs.Shape();
 	this.shape_35.graphics.f("#642484").s().p("AhEB6IgKgCIAAguIAIABIALAAQAOABAHgJQAHgIAEgMIABgBIhEioIA/AAIAdBiIACAIIAAALIABAAIACgLIACgIIAdhiIA9AAIhEC1QgIAVgKAOQgKAOgPAIQgPAHgXAAg");
-	this.shape_35.setTransform(64.425,129);
+	this.shape_35.setTransform(63.925,165);
 
 	this.shape_36 = new cjs.Shape();
 	this.shape_36.graphics.f("#642484").s().p("AgVAWQgKgHAAgPQAAgPAKgHQAJgGANAAQAMAAAJAGQAKAHAAAPQAAAPgKAHQgJAHgMAAQgNAAgJgHg");
@@ -817,7 +817,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_38.graphics.f("#642484").s().p("AgVAWQgKgHAAgPQAAgPAKgHQAJgGANAAQAMAAAJAGQAKAHAAAPQAAAPgKAHQgJAHgMAAQgNAAgJgHg");
 	this.shape_38.setTransform(79.975,167.35);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_26,p:{y:125.125}}]},1).to({state:[{t:this.shape_26,p:{y:125.125}},{t:this.shape_27}]},1).to({state:[{t:this.shape_26,p:{y:125.125}},{t:this.shape_27},{t:this.shape_28,p:{x:64.425,y:129}}]},1).to({state:[{t:this.shape_26,p:{y:125.125}},{t:this.shape_27},{t:this.shape_28,p:{x:64.425,y:129}}]},1).to({state:[{t:this.shape_26,p:{y:125.125}},{t:this.shape_27},{t:this.shape_28,p:{x:64.425,y:129}},{t:this.shape_30},{t:this.shape_29}]},1).to({state:[{t:this.shape_26,p:{y:125.125}},{t:this.shape_27},{t:this.shape_28,p:{x:64.425,y:129}},{t:this.shape_30},{t:this.shape_29},{t:this.shape_31}]},1).to({state:[{t:this.shape_26,p:{y:125.125}},{t:this.shape_27},{t:this.shape_28,p:{x:64.425,y:129}},{t:this.shape_30},{t:this.shape_29},{t:this.shape_31},{t:this.shape_32}]},1).to({state:[{t:this.shape_26,p:{y:125.125}},{t:this.shape_27},{t:this.shape_28,p:{x:64.425,y:129}},{t:this.shape_30},{t:this.shape_29},{t:this.shape_31},{t:this.shape_32}]},1).to({state:[{t:this.shape_33},{t:this.shape_27},{t:this.shape_28,p:{x:64.425,y:129}},{t:this.shape_30},{t:this.shape_29},{t:this.shape_31},{t:this.shape_32},{t:this.shape_26,p:{y:161.125}}]},1).to({state:[{t:this.shape_33},{t:this.shape_27},{t:this.shape_28,p:{x:64.425,y:129}},{t:this.shape_30},{t:this.shape_29},{t:this.shape_31},{t:this.shape_32},{t:this.shape_26,p:{y:161.125}},{t:this.shape_34}]},1).to({state:[{t:this.shape_33},{t:this.shape_27},{t:this.shape_35},{t:this.shape_30},{t:this.shape_29},{t:this.shape_31},{t:this.shape_32},{t:this.shape_26,p:{y:161.125}},{t:this.shape_34},{t:this.shape_28,p:{x:63.925,y:165}}]},1).to({state:[{t:this.shape_33},{t:this.shape_27},{t:this.shape_35},{t:this.shape_30},{t:this.shape_29},{t:this.shape_31},{t:this.shape_32},{t:this.shape_26,p:{y:161.125}},{t:this.shape_34},{t:this.shape_28,p:{x:63.925,y:165}},{t:this.shape_36,p:{x:79.975}}]},1).to({state:[{t:this.shape_33},{t:this.shape_27},{t:this.shape_35},{t:this.shape_30},{t:this.shape_29},{t:this.shape_31},{t:this.shape_32},{t:this.shape_26,p:{y:161.125}},{t:this.shape_34},{t:this.shape_28,p:{x:63.925,y:165}},{t:this.shape_37,p:{x:79.975}},{t:this.shape_36,p:{x:93.075}}]},1).to({state:[{t:this.shape_33},{t:this.shape_27},{t:this.shape_35},{t:this.shape_30},{t:this.shape_29},{t:this.shape_31},{t:this.shape_32},{t:this.shape_26,p:{y:161.125}},{t:this.shape_34},{t:this.shape_28,p:{x:63.925,y:165}},{t:this.shape_38},{t:this.shape_37,p:{x:93.075}},{t:this.shape_36,p:{x:106.175}}]},1).wait(128));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_28,p:{y:125.125}},{t:this.shape_27},{t:this.shape_26}]}).to({state:[{t:this.shape_28,p:{y:125.125}},{t:this.shape_27},{t:this.shape_26}]},4).to({state:[{t:this.shape_28,p:{y:125.125}},{t:this.shape_27},{t:this.shape_26},{t:this.shape_29}]},1).to({state:[{t:this.shape_28,p:{y:125.125}},{t:this.shape_27},{t:this.shape_26},{t:this.shape_29},{t:this.shape_30}]},1).to({state:[{t:this.shape_28,p:{y:125.125}},{t:this.shape_27},{t:this.shape_26},{t:this.shape_29},{t:this.shape_30},{t:this.shape_31}]},1).to({state:[{t:this.shape_28,p:{y:125.125}},{t:this.shape_27},{t:this.shape_26},{t:this.shape_29},{t:this.shape_30},{t:this.shape_31},{t:this.shape_32}]},1).to({state:[{t:this.shape_28,p:{y:125.125}},{t:this.shape_27},{t:this.shape_26},{t:this.shape_29},{t:this.shape_30},{t:this.shape_31},{t:this.shape_32}]},1).to({state:[{t:this.shape_33},{t:this.shape_27},{t:this.shape_26},{t:this.shape_29},{t:this.shape_30},{t:this.shape_31},{t:this.shape_32},{t:this.shape_28,p:{y:161.125}}]},1).to({state:[{t:this.shape_33},{t:this.shape_29},{t:this.shape_30},{t:this.shape_31},{t:this.shape_32},{t:this.shape_28,p:{y:161.125}},{t:this.shape_34},{t:this.shape_27},{t:this.shape_26}]},1).to({state:[{t:this.shape_33},{t:this.shape_29},{t:this.shape_30},{t:this.shape_31},{t:this.shape_32},{t:this.shape_28,p:{y:161.125}},{t:this.shape_34},{t:this.shape_35},{t:this.shape_27},{t:this.shape_26}]},1).to({state:[{t:this.shape_33},{t:this.shape_29},{t:this.shape_30},{t:this.shape_31},{t:this.shape_32},{t:this.shape_28,p:{y:161.125}},{t:this.shape_34},{t:this.shape_35},{t:this.shape_36,p:{x:79.975}},{t:this.shape_27},{t:this.shape_26}]},1).to({state:[{t:this.shape_33},{t:this.shape_29},{t:this.shape_30},{t:this.shape_31},{t:this.shape_32},{t:this.shape_28,p:{y:161.125}},{t:this.shape_34},{t:this.shape_35},{t:this.shape_37,p:{x:79.975}},{t:this.shape_36,p:{x:93.075}},{t:this.shape_27},{t:this.shape_26}]},1).to({state:[{t:this.shape_33},{t:this.shape_29},{t:this.shape_30},{t:this.shape_31},{t:this.shape_32},{t:this.shape_28,p:{y:161.125}},{t:this.shape_34},{t:this.shape_35},{t:this.shape_38},{t:this.shape_37,p:{x:93.075}},{t:this.shape_36,p:{x:106.175}},{t:this.shape_27},{t:this.shape_26}]},1).wait(127));
 
 	this._renderFirstFrame();
 
