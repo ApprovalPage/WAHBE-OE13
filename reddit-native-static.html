@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Approval page</title>
+<style>
+body {
+  background-color: #333;
+}
+div { 
+	display: block; 
+}
+	
+/* link styles */
+a:link {
+  color: #5394FC;
+}
+a:visited {
+  color: #9B73C7;
+}
+	
+</style>
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+
+
+</head>
+
+<body>
+	
+<div w3-include-html="menu-qt2-meta.html"></div> 
+
+<script>
+includeHTML();
+</script>
+
+
+<hr />
+	
+<p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Reddit</font></p>
+
+<p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Statics 1440x1080 + Thumbnail 400x300</font></p>
+<table>
+	<tr valign="top"> 
+	<td><img src="reddit/WHABE-Social-Reddit-Reddit-Static_Alden_1440x1080 copy.jpg" width="360" height="" alt=""/></td>
+	<td>&nbsp;  </td>
+	<td><img src="reddit/WHABE-Social-Reddit-Reddit-Static_Lia_1440x1080 copy 2.jpg" width="360" height="" alt=""/></td>
+	<td>&nbsp;  </td>
+	<td><img src="reddit/WHABE-Social-Reddit-Reddit-Static_Robert_1440x1080.jpg" width="360" height="" alt=""/></td>
+	<td>&nbsp;  </td>
+	<td><img src="reddit/WHABE-Social-Reddit-Reddit-Thumbnail_400x300.jpg" width="200" height="" alt=""/></td>
+	<td>&nbsp;  </td>
+	</tr> 
+	<tr height="20px"></tr>
+</table>
+
+<p></p>
+<hr />
+	
+	
+<p><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">Native 1200x628</font></p>
+<table>
+	<tr valign="top"> 
+	<td><img src="reddit/WHABE-Social-Reddit-Reddit-Native_Jordan_1200x628.jpg" width="300" height="" alt=""/></td>
+	<td>&nbsp;  </td>
+	<td><img src="reddit/WHABE-Social-Reddit-Reddit-Native_Kelsi_1200x628.jpg" width="300" height="" alt=""/></td>
+	<td>&nbsp;  </td>
+	</tr> 
+	<tr height="20px"></tr>
+</table>
+
+<p></p>
+<hr />
+
+</body>
+</html>
