@@ -1073,7 +1073,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.setTransform(91,163,0.5,0.5);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(39).to({_off:false},0).wait(129));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(49).to({_off:false},0).wait(119));
 
 	// C_LINE
 	this.instance_3 = new lib.CLINE();
@@ -1101,7 +1101,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_6.setTransform(149.95,491.6,0.89,0.89);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(95).to({_off:false},0).wait(73));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(84).to({_off:false},0).wait(84));
 
 	// LOGO WHPF
 	this.instance_7 = new lib.LOGOWHPF();
