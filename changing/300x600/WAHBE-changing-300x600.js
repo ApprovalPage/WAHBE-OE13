@@ -1091,14 +1091,14 @@ if (reversed == null) { reversed = false; }
 
 	// Arrow-CTA
 	this.instance_5 = new lib.ArrowCTA();
-	this.instance_5.setTransform(198,431,0.5,0.5);
+	this.instance_5.setTransform(188,481,0.5,0.5);
 	this.instance_5._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(83).to({_off:false},0).wait(85));
 
 	// CTA
 	this.instance_6 = new lib.CTA();
-	this.instance_6.setTransform(149.95,491.6,0.89,0.89);
+	this.instance_6.setTransform(149.95,541.6,0.89,0.89);
 	this.instance_6._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(84).to({_off:false},0).wait(84));
@@ -1111,7 +1111,7 @@ if (reversed == null) { reversed = false; }
 
 	// LOGO CC
 	this.instance_8 = new lib.LOGOCC();
-	this.instance_8.setTransform(149.95,556);
+	this.instance_8.setTransform(149.95,466);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(168));
 
